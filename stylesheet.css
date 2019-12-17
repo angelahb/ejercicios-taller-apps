@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+}
+
+.principal {
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-bottom: 20%;
+  height: 780px;
+  width: 470px;
+  background: #F2FCFF;
+  border: 2px solid #C3F1FF;
+  border-radius: 20px;
+}
+
+.secundario {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 700px;
+  width: 450px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+}
+
+.uno {
+  grid-column: 0 / 3;
+  grid-row: 1;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.dos {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.tres {
+  grid-column: 3 / 3;
+  grid-row: 1;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.cuatro {
+  grid-column: 0 / 3;
+  grid-row: 2;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.cinco {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.seis {
+  grid-column: 3 / 3;
+  grid-row: 2;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.siete {
+  grid-column: 0 / 3;
+  grid-row: 3;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.ocho {
+  grid-column: 2 / 3;
+  grid-row: 3;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.nueve {
+  grid-column: 3 / 3;
+  grid-row: 3;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.diez {
+  grid-column: 0 / 3;
+  grid-row: 4;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.once {
+  grid-column: 2 / 3;
+  grid-row: 4;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.doce {
+  grid-column: 3 / 3;
+  grid-row: 4;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.trece {
+  grid-column: 0 / 3;
+  grid-row: 5;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.catorce {
+  grid-column: 2 / 3;
+  grid-row: 5;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.quince {
+  grid-column: 3 / 3;
+  grid-row: 5;
+  height: 120px;
+  width: 120px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+img {
+  height: 75px;
+  width: 75px;
+  padding: 1px;
+  margin: 5px 20px 0px 20px;
+  border-radius: 45px;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  margin: auto;
+  padding: 15px;
+  color: #5AD2AE;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-top: auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.principal-login {
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-bottom: 20%;
+  height: 300px;
+  width: 400px;
+  background: #F2FCFF;
+  border: 2px solid #C3F1FF;
+  border-radius: 20px;
+}
+
+.principal-login h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #5AD2AE;
+}
+
+.contenedor input {
+  background: #FFFFFF;
+  border: 1px solid #C3F1FF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  width: 90%;
+  height: 90%;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.contenedor button {
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 20px;
+  cursor: pointer;
+  width: 90%;
+  height: 90%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+i {
+  color: red;
+  margin-left: 165px;
+}
+
+label {
+  text-align: center;
+  color: grey;
+}
