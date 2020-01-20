@@ -1,10 +1,131 @@
+
 body {
   margin: 0;
 }
+.contPrincipal{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 1100px;
+  width: 1500px;
+  border: 4px solid #F2FCFF;;
+}
+.contSecundario{
+  height: 1092px;
+  width: 1492px;
+  border: 4px solid ##F2FCFF;;
+}
+.cabecera{
+  height: 100px;
+  width: 1486px;
+  border: 4px solid #333333;
+  background: #333333;
+}
+.cuerpoSecundario{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 975px;
+  width: 1490px;
+  border: 1px solid #F2FCFF;;
+}
 
+.cuerpoSecun{
+  height: 576px;
+  width: 300px;
+  border: 1px solid #C3F1FF;
+}
+.barraLateral{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  height: 975px;
+  width: 300px;
+  border: 1px solid #C3F1FF;
+  background: #C3F1FF;
+}
+.unoZafary{
+  height: 70px;
+  width: 294px;
+  border: 2px solid #77DFFF;
+}
+
+#unozafary:hover {
+  height: 70px;
+  width: 294px;
+  background: #77DFFF;
+}
+.dosZafary{
+  height: 70px;
+  width: 294px;
+  border: 2px solid #77DFFF;
+}
+
+#dosZafary:hover {
+  height: 70px;
+  width: 294px;
+  background: #77DFFF;
+}
+
+.tresZafary{
+  height: 70px;
+  width: 294px;
+  border: 2px solid #77DFFF;
+}
+#tresZafary:hover {
+  height: 70px;
+  width: 294px;
+  background: #77DFFF;
+}
+
+.cuerpo{
+  height: 975px;
+  width: 1170px;
+  border: 4px solid #F2FCFF;
+  background: #F2FCFF;
+}
+
+#h1Zafary{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 60px;
+  font-family: roboto;
+  margin-top: 15px;
+}
+#h2Zafary{
+  color: #000000;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: roboto;
+}
+#h3Zafary{
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+#imgZafary{
+  height: 300px;
+  width: 450px;
+  margin-left: 360px;
+}
+#iZafary{
+  margin: 10px 0px 0px 8px;
+  float: left;
+}
+#pZafary{
+  color: #000000;
+  font-size: 25px;
+  font-family: roboto;
+  text-align: left;
+  margin-left: 70px;
+
+}
 .principal {
   margin-top: 20px;
-  margin-left: 500px;
+  margin-left: 350px;
   margin-bottom: 20%;
   height: 780px;
   width: 470px;
@@ -190,7 +311,7 @@ body {
   border-radius: 20px;
 }
 
-img {
+#imgZpotify {
   height: 75px;
   width: 75px;
   padding: 1px;
@@ -199,7 +320,7 @@ img {
   align-items: center;
 }
 
-h1 {
+#h1Zpotify {
   font-weight: normal;
   text-align: center;
   font-family: Roboto;
@@ -209,7 +330,7 @@ h1 {
   color: #5AD2AE;
 }
 
-p {
+#pZpotify {
   color: #FFFFFF;
   font-family: Roboto;
   font-style: normal;
